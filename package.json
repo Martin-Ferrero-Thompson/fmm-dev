@@ -6,9 +6,9 @@
   "scripts": {
     "dev": "vite", 
     "build:prod": "vite build --mode production", 
-    "build:test": "vite build --mode test_deploy", 
+    "build:test": "vite build --mode test",
     "preview:prod": "vite preview --outDir dist-prod",
-    "preview:test": "vite preview --outDir dist-test",
+    "preview:test": "vite preview --mode test",
     "deploy:prod": "npm run build:prod && npx gh-pages -d dist-prod",
     "deploy:test": "npm run build:test && npx gh-pages -d dist-test --dest test"
   },
