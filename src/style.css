@@ -1,0 +1,10 @@
+/* style.css */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Example custom font */
+}
+
+/* You can override Bootstrap styles here too if needed, but be specific */
+.navbar-brand {
+  font-weight: bold;
+  color: aquamarine !important; /* !important is generally avoided, but for quick demo */
+}
