@@ -10,7 +10,7 @@
     "preview:prod": "vite preview --outDir dist-prod",
     "preview:test": "vite preview --outDir dist-test",
     "deploy:prod": "npm run build:prod && gh-pages -d dist-prod",
-    "deploy:test": "npm run build:test && gh-pages -d dist-test -o gh-pages --dest test"
+    "deploy:test": "npm run build:test && npx gh-pages -d dist-test --dest test"
   },
   "devDependencies": {
     "vite": "^6.3.5"
